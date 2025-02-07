@@ -1,1 +1,1 @@
-Asset Packages/com.gauntletrunner2025.tasks/CHANGELOG.md has no meta file, but it's in an immutable folder. The asset will be ignored.
+Asset Packages/com.gauntletrunner2025.events/CHANGELOG.md has no meta file, but it's in an immutable folder. The asset will be ignored.

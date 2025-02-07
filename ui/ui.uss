@@ -1,0 +1,10 @@
+:root {
+}
+
+#unity-tracker {
+    display: none;
+}
+
+#VideoProgress Label {
+    display: none;
+}

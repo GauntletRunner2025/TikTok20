@@ -1,11 +1,14 @@
 <ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <Style src="project://database/Assets/ui/ui.uss?fileID=7433441132597879392&amp;guid=57a236241c433964f818d8824e05a60c&amp;type=3#ui" />
     <ui:VisualElement style="flex-grow: 1;">
-        <ui:VisualElement name="controls-container" style="position: absolute; bottom: 20px; left: 20px; right: 20px; flex-direction: column-reverse; flex-grow: 1;">
-            <ui:VisualElement style="position: relative; height: 20px; margin-bottom: 10px;">
-                <ui:ProgressBar value="0" title="Progress" name="VideoProgress" style="position: absolute; left: 0; right: 0; top: 0; bottom: 0; margin: 0;" />
-                <ui:Slider value="42" high-value="100" name="VideoSeekSlider" style="position: absolute; left: 0; right: 0; top: 0; bottom: 0; margin: 0; opacity: 0.5;" />
+        <ui:Button name="PauseButton" style="flex-grow: 1; flex-shrink: 1; height: 100%; width: 100%; opacity: 0.03;" />
+        <ui:VisualElement style="flex-direction: column-reverse; flex-grow: 1; flex-shrink: 0;">
+            <ui:VisualElement name="controls-container" style="width: 100%; align-items: stretch; justify-content: space-evenly; align-self: flex-start;">
+                <ui:VisualElement style="flex-shrink: 0; flex-grow: 1; flex-direction: column-reverse;">
+                    <ui:ProgressBar value="0" name="VideoProgress" enabled="false" style="position: absolute; left: 0; right: 0; top: 0; bottom: 0; margin: 0; width: 100%;" />
+                    <ui:Slider value="46.59" high-value="100" name="VideoSeekSlider" fill="true" show-input-field="false" style="margin: 0;" />
+                </ui:VisualElement>
             </ui:VisualElement>
-            <ui:Button text="Pause" name="PauseButton" style="width: 80px; height: 30px;" />
         </ui:VisualElement>
     </ui:VisualElement>
 </ui:UXML>
