@@ -1,1 +1,1 @@
-InvalidOperationException: GetSingleton<VideoPlayerReference>() requires that exactly one entity exists that match this query, but there are none. Are you missing a call to RequireForUpdate<T>()? You could also use TryGetSingleton<T>()
+Asset Packages/com.gauntletrunner2025.tasks/CHANGELOG.md has no meta file, but it's in an immutable folder. The asset will be ignored.
