@@ -1,0 +1,1 @@
+InvalidOperationException: GetSingleton<VideoPlayerReference>() requires that exactly one entity exists that match this query, but there are none. Are you missing a call to RequireForUpdate<T>()? You could also use TryGetSingleton<T>()
